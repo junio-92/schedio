@@ -1,0 +1,171 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: red;
+}
+.container main{
+    flex: 1 1 0;
+}
+footer{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li {
+    margin-right: 20px; 
+    padding: 0px 50px;
+    display: block;       /* Espaço entre os itens do menu */
+}
+
+
+nav ul {
+    list-style: none;          /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+                 /* Exibe os itens horizontalmente */
+}
+
+
+
+header {
+    background-color: red;    /* Cor de fundo escura */
+    padding: 10px;             /* Espaçamento interno do cabeçalho */
+    color: white;              /* Cor do texto */
+    display: flex;             /* Ativa o modelo Flexbox */
+    justify-content: center;   /* Centraliza o conteúdo (navegação) horizontalmente */
+    align-items: center;       /* Alinha o conteúdo verticalmente */
+}
+
+footer{
+
+    background-color: red;    
+    padding: 10px;             
+    color: white;              
+    display: flex;             
+    justify-content: center;   
+    align-items: center;
+
+}
+
+.rede li{
+    margin-right: 20px;
+
+}
+
+.rede{
+    list-style: none;               /* Remove os marcadores da lista */
+    padding: 0;
+    display: flex;                  /* Exibe os ícones horizontalmente */
+    justify-content: center;        /* Centraliza os ícones */
+    margin-top: 10px;
+}
+
+.junio{
+    color: white;
+}
+
+.rede  img{
+
+    width: 50px;
+    height:50px ;
+    padding: 0px 50px;
+    max-width: 100%;
+    
+    
+    
+    
+}
+
+main h1{
+    text-align: center;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.curupira{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.pe{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dragao{
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.dra{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sereia{
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.seri{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.drak{
+    position: absolute; 
+	left: 90px; /* posiciona a 90px para a esquerda */ 
+	top: 300px; /* posiciona a 70px para baixo */
+}
+
+.drako{
+    position: absolute; 
+	right: 90px; /* posiciona a 90px para a esquerda */ 
+	top: 3000px; /* posiciona a 70px para baixo */
+}
+
+
+
