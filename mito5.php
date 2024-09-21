@@ -8,6 +8,86 @@
     <title>Menu</title>
 </head>
 
+<style>
+    
+
+
+    *{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+}
+
+form{
+    width: 330px;
+    background-color: red;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+#esquerda{
+    width: 35%;
+    
+    height: 500px;
+    float: left;
+
+}
+
+#direita{
+    width: 65%;
+    
+    height: 500px;
+    float: left;
+
+}
+
+table{
+    background-color: rgba(0, 0, 0,.2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,.6);
+    color:white;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+
+
+h1{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+
+
+</style>
+
 
 
 
@@ -16,11 +96,11 @@
     <header>
         <nav>
             <ul>
-                <li><a href="" target="_blank">HOME</a></li>
-                <li><a href="" target="_blank">SOBRE</a></li>
-                <li><a href="" target="_blank">LENDAS</a></li>
-                <li><a href="" target="_blank">LOJA</a></li>
-                <li><a href="" target="_blank">CADASTRO</a></li>
+                <li><a href="index.php" target="_blank">HOME</a></li>
+                <li><a href="mito2.php" target="_blank">SOBRE</a></li>
+                <li><a href="mito3.php" target="_blank">LENDAS</a></li>
+                <li><a href="mito4.php" target="_blank">LOJA</a></li>
+                <li><a href="mito5.php" target="_blank">CADASTRO</a></li>
             </ul>
         </nav>
     </header>
@@ -32,6 +112,27 @@
     <main>
         
     <img src="mitologia1.png" alt="imagem1" >
+
+
+    <section id="esquerda">
+    <form method="POST" action="recebimento.php">
+    <h1>REGISTRO DE PESSOAS</h1>
+
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome">
+    <label for="telefone">Telefone</label>
+    <input type="text" name="telefone" id="telefone">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    <input type="submit" value="Registrar">
+
+    </form>
+
+</section>
+
+
+    </table>
+
 
         
         
@@ -60,3 +161,4 @@
 </body>
 
 </html>
+

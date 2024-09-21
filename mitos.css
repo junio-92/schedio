@@ -151,21 +151,19 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
+
+.viceris{
+    display: inline;
+    background-color: blue;
 }
 
-.drak{
-    position: absolute; 
-	left: 90px; /* posiciona a 90px para a esquerda */ 
-	top: 300px; /* posiciona a 70px para baixo */
+#lado-a{
+    background-color: aqua;
+
 }
 
-.drako{
-    position: absolute; 
-	right: 90px; /* posiciona a 90px para a esquerda */ 
-	top: 3000px; /* posiciona a 70px para baixo */
+#lado-b{
+    background-color: brown;
+
 }
-
-
 

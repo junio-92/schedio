@@ -21,6 +21,9 @@
     p{
         font-family: Arial, Helvetica, sans-serif;
     }
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
 </style>
 
 <body class="container">
@@ -45,12 +48,14 @@
         
     <img src="mitologia1.png" alt="imagem1" >
 
-    <h1 class="testo">Um site dedicado a abordar histórias mitologicas</h1>
+    <h1 class="testo">Um site dedicado a abordar histórias mitologicas</h1><br><br>
+    <h3>A  logo do site possui o nome do desenvolvedor mais o nome Thrylous que 
+        é um nome grego que significa "LENDAS"</h3><br><br>
 
     <p>Este site tem como intuito abordar temas sobre a mitologia brasileira e internacional.
         Gostamos de falar sobre história antropomorficas, que são um misterio que atiça a mente dos curiosos, 
         pois o ser humano sempre tem aquele interesse em explorar o desconhecido, portando neste site traremos artigos e videos 
-        pra quem tem interesse no assunto.
+        pra quem tem interesse no assunto. O
     </p>
 
         

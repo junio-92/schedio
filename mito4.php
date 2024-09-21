@@ -8,6 +8,46 @@
     <title>Menu</title>
 </head>
 
+<style>
+    div{
+        display: inline-block;
+    }
+    #lado-a{
+    background-color: aqua;
+    
+
+}
+
+#lado-b{
+    background-color: brown;
+    margin-left: 40px;
+
+}
+#lado-c{
+    margin-left: 200px;
+}
+#lado-d{
+    margin-left: 40px;
+}
+
+#re{
+    margin-left: 650px;
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+#ra{
+    
+    
+}
+
+#dra{
+    margin-top: auto;
+}
+
+</style>
+
+
 
 
 
@@ -16,11 +56,11 @@
     <header>
         <nav>
             <ul>
-                <li><a href="" target="_blank">HOME</a></li>
-                <li><a href="" target="_blank">SOBRE</a></li>
-                <li><a href="" target="_blank">LENDAS</a></li>
-                <li><a href="" target="_blank">LOJA</a></li>
-                <li><a href="" target="_blank">CADASTRO</a></li>
+                <li><a href="index.php" target="_blank">HOME</a></li>
+                <li><a href="mito2.php" target="_blank">SOBRE</a></li>
+                <li><a href="mito3.php" target="_blank">LENDAS</a></li>
+                <li><a href="mito4.php" target="_blank">LOJA</a></li>
+                <li><a href="mito5.php" target="_blank">CADASTRO</a></li>
             </ul>
         </nav>
     </header>
@@ -29,25 +69,24 @@
     
     </nav>
     
-    <main>
-        
-    <img src="mitologia1.png" alt="imagem1" >
+   <main>
 
+   <div id="dra"><img src="mitologia1.png" alt="imagem1" ></div>
 
-    <h2 class="camisa">
-    Camisetas estampadas com frete incluso R$65,00
-    </h2>
-
-    <div class="drak">
-    <img src="cadragao2.jpeg"  id="drak">
     
-    </div>
     
+    <h2 id="ra">Camisetas a partir de R$65,00 e Calças a partir de R$70,00</h2> 
+   <div id="lado-a"><img src="cadragao1.jpeg" alt=""></div>
+   <div id="lado-b"><img src="cadragao2.jpeg" alt=""></div>
+   
+   <div id="lado-c"><img src="calca1.jpeg" alt=""></div>
+   <div id="lado-d"><img src="calca2.jpeg" alt=""></div>
 
-        
-        
-    </main>
+   
 
+
+
+   </main>
     
     
 
