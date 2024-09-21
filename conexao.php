@@ -20,7 +20,7 @@
     }
 </style>
 <body>
-    <h1>CONEXÃO EFETUADA COM SUCESSO</h1>
+    <h1>REGISTRO FEITO COM SUCESSO</h1>
     <div><img src="mitologia1.png" alt=""></div>
 </body>
 </html>
